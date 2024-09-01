@@ -8,6 +8,8 @@
 </head>
 <body>
 
+	
+
 	<% int n = Integer.parseInt(request.getParameter("num"));
 	
 		if(n % 2 == 0) {
