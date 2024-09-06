@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Assignment 10.1 jsp</title>
 </head>
 <body>
 <%

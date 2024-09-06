@@ -4,7 +4,7 @@ pageEncoding="UTF-8"%>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>assignment 10.2 jsp</title>
 </head>
 <body>
 <%!
@@ -15,7 +15,7 @@ int p;
 %>
 <%
 Class.forName("com.mysql.cj.jdbc.Driver");
-con=DriverManager.getConnection("jdbc:mysql://localhost:3306/school","root","admin");
+con = DriverManager.getConnection("jdbc:mysql://localhost:3306/college", "root", "mysqlroot");
 ps=con.prepareStatement("insert into product values(?,?,?)");
 nm=request.getParameter("pname");
 t=request.getParameter("ptype");

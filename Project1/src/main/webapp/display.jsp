@@ -4,7 +4,7 @@ pageEncoding="UTF-8"%>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Assignment 10.2 display.jsp</title>
 </head>
 <body>
 <%!
@@ -18,7 +18,7 @@ int p;
 <tr><th>Product Name</th><th>Product Type</th><th>Product Price</th></tr>
 <%
 Class.forName("com.mysql.cj.jdbc.Driver");
-con=DriverManager.getConnection("jdbc:mysql://localhost:3306/school","root","admin");
+con = DriverManager.getConnection("jdbc:mysql://localhost:3306/college", "root", "mysqlroot");
 ps=con.prepareStatement("select * from product");
 
 rs=ps.executeQuery();
