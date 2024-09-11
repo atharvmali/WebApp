@@ -17,6 +17,7 @@ Rice :
 <option value="10">10 Kg</option>
 <option value="15">15 Kg</option>
 </select>
+
 Wheat :
 <select name="wheat">
 <option value="2">2 Kg</option>
@@ -24,6 +25,7 @@ Wheat :
 <option value="10">10 Kg</option>
 <option value="15">15 Kg</option>
 </select>
+
 <input type="submit" value="Submit">
 </form>
 </body>
