@@ -26,7 +26,6 @@ try{
             <td><%= rs.getInt("pid") %></td>
             <td><%= rs.getString("pname") %></td>
             <td><%= rs.getString("address") %></td>
-           
         </tr>
 <%
     }
